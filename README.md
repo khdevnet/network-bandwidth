@@ -18,8 +18,15 @@ Latency in communication is demonstrated in live transmissions from various poin
 ## hop
 In a packet-switching network, a hop is the trip a data packet takes from one router or intermediate point to another in the network. On the Internet (or a network that uses TCP/IP), the number of hops a packet has taken toward its destination (called the "hop count") is kept in the packet header. A packet with an exceedingly large hop count is discarded.
 
+## Jitter
+Jitter is any deviation in, or displacement of, the signal pulses in a high-frequency digital signal. The deviation can be in terms of amplitude, phase timing or the width of the signal pulse. Among the causes of jitter are electromagnetic interference (EMI) and crosstalk with other signals. Jitter can cause a display monitor to flicker, affect the ability of the processor in a desktop or server to perform as intended, introduce clicks or other undesired effects in audio signals, and loss of transmitted data between network devices. The amount of allowable jitter is highly dependent on the application.
+
+
+Jitter in IP networks is the variation in the latency on a packet flow between two systems, when some packets take longer to travel from one system to the other. Jitter results from network congestion, timing drift and route changes.
+
 # Resources
 * [bandwidth](https://searchnetworking.techtarget.com/definition/bandwidth)
 * [packet-loss](https://searchnetworking.techtarget.com/definition/packet-loss)
 * [latency](https://whatis.techtarget.com/definition/latency)
 * [hop](https://whatis.techtarget.com/definition/hop)
+* [jitter](https://searchunifiedcommunications.techtarget.com/definition/jitter)
