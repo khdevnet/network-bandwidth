@@ -1,4 +1,7 @@
 # Network Fundamentals
+* [Glossary](#glossary)
+* [Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC](#comparing-use-cases-for-rest-graphql-webhooks-and-grpc)
+* [Network-bandwidth](#network-bandwidth)
 
 ## Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC
 
