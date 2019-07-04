@@ -1,4 +1,5 @@
 # Network Fundamentals
+
 ## Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC
 
 * REST: A stateless architecture for data transfer that is dependent on hypermedia. REST can tie together a wide range of resources that might be requested in a variety of formats for different purposes. REST is fundamentally concerned with stateless resource management, so it’s best used in such situations. Systems requiring rapid iteration and standardized HTTP verbiage will find REST best suited for their purposes.
@@ -31,6 +32,16 @@ Jitter is any deviation in, or displacement of, the signal pulses in a high-freq
 
 
 Jitter in IP networks is the variation in the latency on a packet flow between two systems, when some packets take longer to travel from one system to the other. Jitter results from network congestion, timing drift and route changes.
+
+## Glossary
+* A TCP socket is an endpoint instance defined by an IP address and a port in the context of either a particular TCP connection or the listening state.
+
+* A port is a virtualisation identifier defining a service endpoint (as distinct from a service instance endpoint aka session identifier).
+
+* A TCP socket is not a connection, it is the endpoint of a specific connection.
+
+There can be concurrent connections to a service endpoint, because a connection is identified by both its local and remote endpoints, allowing traffic to be routed to a specific service instance.
+There can only be one listener socket for a given address/port combination.
 
 # Resources
 * [bandwidth](https://searchnetworking.techtarget.com/definition/bandwidth)
