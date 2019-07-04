@@ -7,27 +7,27 @@
 * GraphQL: An approach wherein the user defines the expected data and format of that data. GraphQL is from Facebook, and that pedigree demonstrates its use case well — situations in which the requester needs the data in a specific format for a specific use. In those cases, those data formats and the relations between them are vitally important, and no other solution provides the same level of interconnected provision of data.
 * Webhooks: Data updates to be served automatically, rather than requested. Finally, Webhooks are best used when the API in question primarily updates clients. While such APIs can also have other functions, even RESTful ones, the primary use of a Webhook microservice should be to update clients and provide updated, provisioned data upon the creation of the new, updated resource.
 
-# Network-bandwidth
+## Network-bandwidth
 Bandwidth is the capacity of a wired or wireless network communications link to transmit the maximum amount of data from one point to another over a computer network or internet connection in a given amount of time -- usually one second. Synonymous with capacity, bandwidth describes the data transfer rate.
 
 The maximum capacity of a network connection is only one factor that affects network performance. **Packet loss, latency and jitter** can all degrade network throughput and make a high-capacity link perform like one with less available bandwidth. An end-to-end network path usually consists of multiple network links, each with different bandwidth capacity. As a result, the link with the lowest bandwidth is often described as the bottleneck, because the lowest bandwidth connection can limit the overall data capacity of all the connections in the path.
 
-## Packet loss
+### Packet loss
 Packet loss is the failure of one or more transmitted packets to arrive at their destination. This event can cause noticeable effects in all types of digital communications.
 * In data, packet loss produces errors.
 * In videoconference environments it can create jitter.
 * In pure audio communications, such as VoIP, it can cause jitter and frequent gaps in received speech.
 * In the worst cases, packet loss can cause severe mutilation of received data, broken-up images, unintelligible speech or even the complete absence of a received signal.
 
-## Latency
+### Latency
 Latency is the delay from input into a system to desired outcome; the term is understood slightly differently in various contexts and latency issues also vary from one system to another. Latency greatly affects how usable and enjoyable electronic and mechanical devices as well as communications are.    
 
 Latency in communication is demonstrated in live transmissions from various points on the earth as the communication **hops** between a ground transmitter and a satellite and from a satellite to a receiver each take time. People connecting from distances to these live events can be seen to have to wait for responses. This latency is the wait time introduced by the signal travelling the geographical distance as well as over the various pieces of communications equipment.
 
-## hop
+### hop
 In a packet-switching network, a hop is the trip a data packet takes from one router or intermediate point to another in the network. On the Internet (or a network that uses TCP/IP), the number of hops a packet has taken toward its destination (called the "hop count") is kept in the packet header. A packet with an exceedingly large hop count is discarded.
 
-## Jitter
+### Jitter
 Jitter is any deviation in, or displacement of, the signal pulses in a high-frequency digital signal. The deviation can be in terms of amplitude, phase timing or the width of the signal pulse. Among the causes of jitter are electromagnetic interference (EMI) and crosstalk with other signals. Jitter can cause a display monitor to flicker, affect the ability of the processor in a desktop or server to perform as intended, introduce clicks or other undesired effects in audio signals, and loss of transmitted data between network devices. The amount of allowable jitter is highly dependent on the application.
 
 
