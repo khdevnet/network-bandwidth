@@ -6,7 +6,6 @@
 * GraphQL: An approach wherein the user defines the expected data and format of that data. GraphQL is from Facebook, and that pedigree demonstrates its use case well — situations in which the requester needs the data in a specific format for a specific use. In those cases, those data formats and the relations between them are vitally important, and no other solution provides the same level of interconnected provision of data.
 * Webhooks: Data updates to be served automatically, rather than requested. Finally, Webhooks are best used when the API in question primarily updates clients. While such APIs can also have other functions, even RESTful ones, the primary use of a Webhook microservice should be to update clients and provide updated, provisioned data upon the creation of the new, updated resource.
 
-
 # Network-bandwidth
 Bandwidth is the capacity of a wired or wireless network communications link to transmit the maximum amount of data from one point to another over a computer network or internet connection in a given amount of time -- usually one second. Synonymous with capacity, bandwidth describes the data transfer rate.
 
@@ -39,3 +38,4 @@ Jitter in IP networks is the variation in the latency on a packet flow between t
 * [latency](https://whatis.techtarget.com/definition/latency)
 * [hop](https://whatis.techtarget.com/definition/hop)
 * [jitter](https://searchunifiedcommunications.techtarget.com/definition/jitter)
+* [when-to-use-what-rest-graphql-webhooks-grpc](https://nordicapis.com/when-to-use-what-rest-graphql-webhooks-grpc/)
