@@ -5,11 +5,12 @@
 * [Network-bandwidth](#network-bandwidth)
 
 ## HTTP
-* What is HTTP?
-* What is URL?
-* What is Domain?
-* What is HTTP messages? (HTTP Request + HTTP Response = HTTP Transaction)
-* What is MimeTypes?
+* HTTP is an Application Protocol for transferring Resources across the internet.
+* URL (Uniform Resource Locator) is a unique identifier used to locate a resource on the internet
+* HTTP messages are how data is exchanged between a server and a client. There are two types of messages: requests sent by the client to trigger an action on the server, and responses, the answer from the server. (HTTP Request + HTTP Response = HTTP Transaction)
+* A media type (also known as a Multipurpose Internet Mail Extensions or MIME type) is a standard that indicates the nature and format of a document, file, or assortment of bytes. It is defined and standardized in IETF's RFC 6838.
+* HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with the next request to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
+
 
 ## Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC
 
