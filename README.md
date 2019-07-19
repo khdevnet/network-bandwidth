@@ -1,7 +1,15 @@
 # Network Fundamentals
 * [Glossary](#glossary)
+* [HTTP](#http)
 * [Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC](#comparing-use-cases-for-rest-graphql-webhooks-and-grpc)
 * [Network-bandwidth](#network-bandwidth)
+
+## HTTP
+* What is HTTP?
+* What is URL?
+* What is Domain?
+* What is HTTP messages? (HTTP Request + HTTP Response = HTTP Transaction)
+* What is MimeTypes?
 
 ## Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC
 
