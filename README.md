@@ -11,6 +11,7 @@
 * A media type (also known as a Multipurpose Internet Mail Extensions or MIME type) is a standard that indicates the nature and format of a document, file, or assortment of bytes. It is defined and standardized in IETF's RFC 6838.
 * HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with the next request to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
 * HTTP has a **persistent connection* function that allows the channel to remain open rather than be closed after a requested exchange of data. Can be use to improve performance of http.
+* A proxy server is a computer that acts as an intermediary between the user's computer and the Internet. It allows client computers to make indirect network connections to other network services. 
 
 
 ## Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC
