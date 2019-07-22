@@ -13,6 +13,15 @@
 * HTTP has a **persistent connection* function that allows the channel to remain open rather than be closed after a requested exchange of data. Can be use to improve performance of http.
 * A proxy server is a computer that acts as an intermediary between the user's computer and the Internet. It allows client computers to make indirect network connections to other network services. 
 
+### HTTP connections
+* **Parallel Connections** web browser can open multiple connections and perform multiple HTTP transactions in parallel.
+* **persistent connections** TCP connections that are kept open after transactions complete are called persistent
+connections. Nonpersistent connections are closed after each transaction. Persistent connections stay
+open across transactions, until either the client or the server decides to close them. There are two types of persistent connections: the older HTTP/1.0+ "keep-alive" connections and the modern HTTP/1.1 "persistent" connections. [Keep-alive](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive) is deprecated and no longer documented in the current HTTP/1.1 specification.
+HTTP/1.1 **persistent connections** are active by default. HTTP/1.1 assumes all connections are persistent unless otherwise indicated. HTTP/1.1 applications have to explicitly add a Connection: close.
+
+HTTP/1.1 permits optional **request pipelining over persistent connections**. This is a further performance optimization over keep-alive connections. Multiple requests can be enqueued before the responses arrive. While the first request is streaming across the network to a server on the other side of the globe, the second and third requests can get underway. This can improve performance in highlatency
+network conditions, by reducing network round trips.
 
 ## Comparing Use Cases For REST, GraphQL, Webhooks, and gRPC
 
