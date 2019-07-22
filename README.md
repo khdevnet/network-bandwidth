@@ -68,6 +68,7 @@ There can be concurrent connections to a service endpoint, because a connection 
 There can only be one listener socket for a given address/port combination.
 
 # Resources
+* [Simple Web Server](https://codehosting.net/blog/BlogEngine/post/Simple-C-Web-Server)
 * [bandwidth](https://searchnetworking.techtarget.com/definition/bandwidth)
 * [packet-loss](https://searchnetworking.techtarget.com/definition/packet-loss)
 * [latency](https://whatis.techtarget.com/definition/latency)
